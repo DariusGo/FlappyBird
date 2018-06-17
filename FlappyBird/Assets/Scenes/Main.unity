@@ -339,6 +339,7 @@ GameObject:
   - component: {fileID: 423494531}
   - component: {fileID: 423494530}
   - component: {fileID: 423494529}
+  - component: {fileID: 423494533}
   m_Layer: 0
   m_Name: Ground 2
   m_TagString: Untagged
@@ -460,6 +461,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &423494533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 423494527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0758549b0341134ab72e3889830d13b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &703719308
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,6 +501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scrollSpeed: -1.5
   gameOver: 0
+  scoreText: {fileID: 1536110655}
   gameOverText: {fileID: 704701114}
 --- !u!4 &703719310
 Transform:
@@ -843,6 +856,7 @@ GameObject:
   - component: {fileID: 927701758}
   - component: {fileID: 927701760}
   - component: {fileID: 927701759}
+  - component: {fileID: 927701761}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -962,6 +976,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31a78d5e12a4f6746ab05c3b35e72a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &927701761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 927701755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0758549b0341134ab72e3889830d13b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1095466789
