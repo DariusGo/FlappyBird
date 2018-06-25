@@ -8,7 +8,7 @@ public class ColumnPool : MonoBehaviour {
 	public int columnPoolSize = 5;
 	public GameObject columnPrefab;
 	public float columnMin = -1f;
-	public float columnMax = 3.5f;
+	public float columnMax = 0f;
 
 	private float timeSinceLastSpawn;
 	private Vector2 objectPoolPosition = new Vector2 (-15f, -25f);
